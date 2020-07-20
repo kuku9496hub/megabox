@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "HTTP://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- myBatis에 관련된 환경설정 -->
+	<!-- 기본 동작에 대한 환경 설정-->
+	<settings>
+		<!-- 캐쉬 메모리 사용여부 -->
+		<setting name="cacheEnabled" value="false" />
+		<!-- 일반화 키 사용여부 -->
+		<setting name="useGeneratedKeys" value="true" />
+		<!-- 기본 질의 실행 방식 -->
+		<setting name="defaultExecutorType" value="REUSE" />		
+	</settings>
+</configuration>
